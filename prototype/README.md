@@ -147,7 +147,7 @@ m2 = 1
     ```
     sh run_proxy_datanode.sh
     ./project/build/run_coordinator
-    ./project/build/run_client [number_of_stripes] [config_file_name]
+    ./project/build/run_client [number_of_stripes] [config_file_name] [failures_number]
     ```
 
   - run in multiple nodes for testbed experiments
